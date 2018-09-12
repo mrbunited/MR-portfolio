@@ -38,7 +38,37 @@ img{
   margin-top: 50px;
 }
 
-.space{
-  margin-top: 20px;
-  background-color: black;
+.port-img{
+  float:right;
+}
+.tech-icon-par, description-container{
+  float:left;
+  max-width: 400px;
+}
+.img-fluid{
+  max-height: 450px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+label {
+  color: #333;
+}
+
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 20px;
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
 }
